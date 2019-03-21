@@ -8,12 +8,12 @@ env:
   global:
   - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 before_install:
-- openssl aes-256-cbc -K $encrypted_f3cd4dda6414_key -iv $encrypted_f3cd4dda6414_iv -in gcp-policy-management-demo-c7f18aa3ec5b.json.enc -out ~\/gcp-policy-management-demo-c7f18aa3ec5b.json -d
+- openssl aes-256-cbc -K $encrypted_f3cd4dda6414_key -iv $encrypted_f3cd4dda6414_iv -in gcp-policy-management-demo-c7f18aa3ec5b.json.enc -out gcp-policy-management-demo-c7f18aa3ec5b.json -d
 - if [ ! -d $HOME/google-cloud-sdk/bin ]; then rm -rf $HOME/google-cloud-sdk; curl https://sdk.cloud.google.com | bash > /dev/null; fi
 - source $HOME/google-cloud-sdk/path.bash.inc
 - gcloud version
 - gcloud components update kubectl
-- gcloud auth activate-service-account --key-file ~/gcp-policy-management-demo-c7f18aa3ec5b.json
+- gcloud auth activate-service-account --key-file gcp-policy-management-demo-c7f18aa3ec5b.json
 install: true
 script:
 - gcloud container clusters get-credentials demo --zone us-central1-a --project gcp-policy-management-demo
