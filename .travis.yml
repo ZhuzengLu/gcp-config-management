@@ -17,3 +17,6 @@ before_install:
 install: true
 script:
 - gcloud container clusters get-credentials demo --zone us-central1-a --project gcp-policy-management-demo
+- .bin/nomos vet
+notifications:
+  slack: travisnotification:TIEWG47bJjtneQGsxiVDS6Yh
