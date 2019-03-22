@@ -1,0 +1,15 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: project-billing-test-demo-321323-iam
+spec:
+  bindings:
+  - members:
+    - group:bespin-eng@google.com
+    role: roles/billing.projectManager
+  - members:
+    - user:zhuzenglu@gcp-policy-management.1bot2.info
+    role: roles/owner
+  resourceRef: {}
+status: {}
