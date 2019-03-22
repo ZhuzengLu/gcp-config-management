@@ -1,0 +1,10 @@
+apiVersion: bespin.dev/v1
+kind: Project
+metadata:
+  creationTimestamp: null
+  name: project-billing-test-demo-321323
+spec:
+  displayName: billing-test-demo
+  id: billing-test-demo-321323
+  parentRef: {}
+status: {}

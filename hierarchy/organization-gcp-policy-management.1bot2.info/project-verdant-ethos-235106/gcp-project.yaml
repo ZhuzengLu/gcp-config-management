@@ -1,0 +1,10 @@
+apiVersion: bespin.dev/v1
+kind: Project
+metadata:
+  creationTimestamp: null
+  name: project-verdant-ethos-235106
+spec:
+  displayName: My First Project
+  id: verdant-ethos-235106
+  parentRef: {}
+status: {}

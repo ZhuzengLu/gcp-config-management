@@ -1,0 +1,10 @@
+apiVersion: bespin.dev/v1
+kind: Folder
+metadata:
+  creationTimestamp: null
+  name: folder-174105804064
+spec:
+  displayName: 2019-NEXT-demo
+  id: 174105804064
+  parentRef: {}
+status: {}
