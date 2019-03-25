@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1alpha1
 kind: GCPIAMAllowedPolicyMemberDomainsConstraint
 metadata:
-  name: allow_everything
+  name: allow_policy_member_domains
 spec:
   severity: high
   match:
@@ -9,6 +9,6 @@ spec:
     exclude: [] # optional, default is no exclusions
   parameters:
     domains:
+      - gcp-policy-management.1bot2.info
       - gserviceaccount.com
       - google.com
-      - notgoogle.com
