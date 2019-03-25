@@ -12,3 +12,4 @@ spec:
       - gcp-policy-management.1bot2.info
       - gserviceaccount.com
       - google.com
+      - acme.com
