@@ -8,6 +8,7 @@ spec:
   - members:
     - user:zhuzenglu@google.com
     - user:ttt@google.com
+    - user:shaogang@google.com
     role: roles/owner
   resourceRef: {}
 status: {}
