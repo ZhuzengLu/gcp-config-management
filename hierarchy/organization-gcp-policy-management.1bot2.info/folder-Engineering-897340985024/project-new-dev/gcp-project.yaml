@@ -1,0 +1,10 @@
+apiVersion: bespin.dev/v1
+kind: Project
+metadata:
+  creationTimestamp: null
+  name: project-new-dev-001
+spec:
+  displayName: Checkout Srvc new dev
+  id: ferrous-purpose-235601
+  parentRef: {}
+status: {}
