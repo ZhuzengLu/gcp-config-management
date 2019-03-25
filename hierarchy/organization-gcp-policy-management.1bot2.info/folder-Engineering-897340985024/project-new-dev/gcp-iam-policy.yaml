@@ -9,6 +9,6 @@ spec:
     - user:zhuzenglu@google.com
     - user:ttt@google.com
     - user:shaogang@google.com
-    role: roles/owner
+    role: roles/editor
   resourceRef: {}
 status: {}
