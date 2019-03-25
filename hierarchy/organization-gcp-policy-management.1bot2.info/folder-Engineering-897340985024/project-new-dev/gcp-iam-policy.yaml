@@ -7,7 +7,7 @@ spec:
   bindings:
   - members:
     - user:zhuzenglu@google.com
-    - user:luzhuzeng@gmail.com
+    - user:ttt@google.com
     role: roles/owner
   resourceRef: {}
 status: {}
