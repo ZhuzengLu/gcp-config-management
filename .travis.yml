@@ -8,7 +8,7 @@ env:
   global:
   - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 before_install:
-- openssl aes-256-cbc -K $encrypted_f3cd4dda6414_key -iv $encrypted_f3cd4dda6414_iv -in gcp-policy-management-demo-c7f18aa3ec5b.json.enc -out gcp-policy-management-demo-c7f18aa3ec5b.json -d
+- openssl aes-256-cbc -K $encrypted_f3cd4dda6414_key -iv $encrypted_f3cd4dda6414_iv -in .gcp-policy-management-demo-c7f18aa3ec5b.json.enc -out gcp-policy-management-demo-c7f18aa3ec5b.json -d
 - if [ ! -d $HOME/google-cloud-sdk/bin ]; then rm -rf $HOME/google-cloud-sdk; curl https://sdk.cloud.google.com | bash > /dev/null; fi
 - source $HOME/google-cloud-sdk/path.bash.inc
 - gcloud version

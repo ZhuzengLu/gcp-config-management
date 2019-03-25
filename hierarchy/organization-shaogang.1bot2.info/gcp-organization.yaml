@@ -1,8 +1,0 @@
-apiVersion: bespin.dev/v1
-kind: Organization
-metadata:
-  creationTimestamp: null
-  name: organization-shaogang.1bot2.info
-spec:
-  id: 559801116500
-status: {}

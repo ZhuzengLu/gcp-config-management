@@ -1,8 +1,0 @@
-apiVersion: bespin.dev/v1
-kind: Organization
-metadata:
-  creationTimestamp: null
-  name: organization-gcp-policy-management.1bot2.info
-spec:
-  id: 154839160539
-status: {}
