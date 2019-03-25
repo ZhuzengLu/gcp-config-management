@@ -1,0 +1,15 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: folder-897340985024-iam
+spec:
+  bindings:
+  - members:
+    - user:zhuzenglu@google.com
+    role: roles/resourcemanager.folderAdmin
+  - members:
+    - user:zhuzenglu@google.com
+    role: roles/resourcemanager.folderEditor
+  resourceRef: {}
+status: {}
