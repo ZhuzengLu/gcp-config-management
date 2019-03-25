@@ -7,7 +7,6 @@ spec:
   bindings:
   - members:
     - user:zhuzenglu@google.com
-    - user:luzhuzeng@gmail.com
     role: roles/resourcemanager.folderAdmin
   - members:
     - user:zhuzenglu@google.com
