@@ -1,0 +1,9 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: folder-240409367553-iam
+spec:
+  bindings: null
+  resourceRef: {}
+status: {}

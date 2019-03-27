@@ -1,0 +1,27 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: organization-chili-oregano.com-iam
+spec:
+  bindings:
+  - members:
+    - domain:chili-oregano.com
+    role: roles/billing.creator
+  - members:
+    - serviceAccount:gcp-policy-management-demo@gcp-policy-management-demo.iam.gserviceaccount.com
+    role: roles/cloudasset.viewer
+  - members:
+    - user:admin-alice@chili-oregano.com
+    role: roles/owner
+  - members:
+    - user:admin-alice@chili-oregano.com
+    role: roles/resourcemanager.folderAdmin
+  - members:
+    - user:admin-alice@chili-oregano.com
+    role: roles/resourcemanager.organizationAdmin
+  - members:
+    - domain:chili-oregano.com
+    role: roles/resourcemanager.projectCreator
+  resourceRef: {}
+status: {}
