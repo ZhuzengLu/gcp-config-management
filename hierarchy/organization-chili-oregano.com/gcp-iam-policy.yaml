@@ -6,11 +6,17 @@ metadata:
 spec:
   bindings:
   - members:
+    - serviceAccount:gcp-policy-management@gcp-policy-management-demo.iam.gserviceaccount.com
+    role: organizations/134122607659/roles/gcp_policy_automation
+  - members:
     - domain:chili-oregano.com
     role: roles/billing.creator
   - members:
     - serviceAccount:gcp-policy-management-demo@gcp-policy-management-demo.iam.gserviceaccount.com
     role: roles/cloudasset.viewer
+  - members:
+    - serviceAccount:gcp-policy-management@gcp-policy-management-demo.iam.gserviceaccount.com
+    role: roles/orgpolicy.policyAdmin
   - members:
     - user:admin-alice@chili-oregano.com
     role: roles/owner
