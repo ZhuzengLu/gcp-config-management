@@ -6,7 +6,7 @@ metadata:
 spec:
   bindings:
   - members:
-    - user:dev-bob@gmail.com
+    - user:dev-bob@chili-oregano.com
     role: roles/editor
   resourceRef: {}
 status: {}

@@ -5,6 +5,6 @@ metadata:
   name: project-a-cool-project
 spec:
   displayName: A cool project
-  id: checkout-srvc
+  id: new-cool-project-0327
   parentRef: {}
 status: {}
