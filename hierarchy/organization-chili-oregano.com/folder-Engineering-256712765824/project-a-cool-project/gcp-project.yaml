@@ -1,0 +1,10 @@
+apiVersion: bespin.dev/v1
+kind: Project
+metadata:
+  creationTimestamp: null
+  name: project-a-cool-project
+spec:
+  displayName: A cool project
+  id: new-cool-project-0327
+  parentRef: {}
+status: {}
