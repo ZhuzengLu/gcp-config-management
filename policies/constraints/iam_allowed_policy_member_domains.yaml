@@ -9,6 +9,5 @@ spec:
     exclude: [] # optional, default is no exclusions
   parameters:
     domains:
-      - gcp-policy-management.1bot2.info
+      - chili-oregano.com
       - gserviceaccount.com
-      - google.com
