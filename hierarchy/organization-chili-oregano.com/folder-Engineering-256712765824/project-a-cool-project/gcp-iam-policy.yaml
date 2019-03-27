@@ -1,0 +1,12 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: project-a-cool-project-iam
+spec:
+  bindings:
+  - members:
+    - user:dev-bob@gmail.com
+    role: roles/editor
+  resourceRef: {}
+status: {}
