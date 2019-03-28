@@ -1,7 +1,0 @@
-apiVersion: bespin.dev/v1
-kind: Project
-metadata:
-  name: project-a-cool-project
-spec:
-  displayName: A cool project
-  id: a-cool-project-0328
