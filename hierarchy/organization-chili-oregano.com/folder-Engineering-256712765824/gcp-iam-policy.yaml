@@ -1,0 +1,15 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: folder-256712765824-iam
+spec:
+  bindings:
+  - members:
+    - user:dev-bob@chili-oregano.com
+    role: roles/owner
+  - members:
+    - user:dev-bob@chili-oregano.com
+    role: roles/resourcemanager.folderAdmin
+  resourceRef: {}
+status: {}
