@@ -1,0 +1,43 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: project-forseti-235823-iam
+spec:
+  bindings:
+  - members:
+    - serviceAccount:service-323685982460@gcp-sa-cloudasset.iam.gserviceaccount.com
+    role: roles/cloudasset.serviceAgent
+  - members:
+    - serviceAccount:forseti-server-gcp-a296828@forseti-235823.iam.gserviceaccount.com
+    role: roles/cloudsql.client
+  - members:
+    - serviceAccount:service-323685982460@compute-system.iam.gserviceaccount.com
+    role: roles/compute.serviceAgent
+  - members:
+    - serviceAccount:service-323685982460@container-engine-robot.iam.gserviceaccount.com
+    role: roles/container.serviceAgent
+  - members:
+    - serviceAccount:323685982460-compute@developer.gserviceaccount.com
+    - serviceAccount:323685982460@cloudservices.gserviceaccount.com
+    - serviceAccount:service-323685982460@containerregistry.iam.gserviceaccount.com
+    role: roles/editor
+  - members:
+    - serviceAccount:forseti-client-gcp-a296828@forseti-235823.iam.gserviceaccount.com
+    - serviceAccount:forseti-server-gcp-a296828@forseti-235823.iam.gserviceaccount.com
+    role: roles/logging.logWriter
+  - members:
+    - user:admin-alice@chili-oregano.com
+    role: roles/owner
+  - members:
+    - user:ttt@chili-oregano.com
+    role: roles/storage.admin
+  - members:
+    - serviceAccount:forseti-server-gcp-a296828@forseti-235823.iam.gserviceaccount.com
+    role: roles/storage.objectCreator
+  - members:
+    - serviceAccount:forseti-client-gcp-a296828@forseti-235823.iam.gserviceaccount.com
+    - serviceAccount:forseti-server-gcp-a296828@forseti-235823.iam.gserviceaccount.com
+    role: roles/storage.objectViewer
+  resourceRef: {}
+status: {}
