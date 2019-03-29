@@ -1,0 +1,9 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  name: project-a-cool-project-iam
+spec:
+  bindings:
+  - members:
+    - user:dev-bob@chili-oregano.com
+    role: roles/editor
