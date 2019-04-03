@@ -4,4 +4,4 @@ metadata:
   name: project-shopping-assistant-srvc
 spec:
   displayName: Shopping Assistant Srvc
-  id: shopping-cart-srvc
+  id: shopping-assistant-srvc-001
