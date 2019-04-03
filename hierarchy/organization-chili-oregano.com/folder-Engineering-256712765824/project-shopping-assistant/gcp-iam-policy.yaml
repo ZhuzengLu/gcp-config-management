@@ -1,4 +1,4 @@
-iapiVersion: bespin.dev/v1
+apiVersion: bespin.dev/v1
 kind: IAMPolicy
 metadata:
   name: project-shopping-assistant-srvc-iam
