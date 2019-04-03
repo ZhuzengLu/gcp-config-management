@@ -1,0 +1,9 @@
+iapiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  name: project-shopping-assistant-srvc-iam
+spec:
+  bindings:
+  - members:
+    - user:dev-bob@gmail.com
+    role: roles/editor
