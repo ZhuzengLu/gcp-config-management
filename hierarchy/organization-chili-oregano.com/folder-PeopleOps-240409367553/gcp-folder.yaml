@@ -1,0 +1,10 @@
+apiVersion: bespin.dev/v1
+kind: Folder
+metadata:
+  creationTimestamp: null
+  name: folder-240409367553
+spec:
+  displayName: PeopleOps
+  id: 240409367553
+  parentRef: {}
+status: {}
