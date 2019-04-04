@@ -12,7 +12,7 @@ steps:
   - 'CLOUDSDK_CONTAINER_USE_APPLICATION_DEFAULT_CREDENTIALS=true'
 # Get GRepo
 - name: 'gcr.io/cloud-builders/git'
-  args: [ 'clone', 'https://github.com/chili-oregano/gcp-policy-management.git' ]
+  args: [ 'clone', 'https://github.com/chili-oregano/gcp-config-management.git' ]
 - name: 'ubuntu'
   args: [ '/workspace/.bin/config-validator', 'vet', '--path=/workspace' ]
   volumes:
