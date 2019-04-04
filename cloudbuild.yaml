@@ -13,10 +13,8 @@ steps:
 # Get GRepo
 - name: 'gcr.io/cloud-builders/git'
   args: [ 'clone', 'https://github.com/chili-oregano/gcp-policy-management.git' ]
-# In my case, I simply put the bespin binary in repo's bin folder because I got
-# some error using docker. Volumes and env let bestpin binary know our cluster.
 - name: 'ubuntu'
-  args: [ '/workspace/.bin/gcp-config', 'vet', '--path=/workspace' ]
+  args: [ '/workspace/.bin/config-validator', 'vet', '--path=/workspace' ]
   volumes:
   - name: 'kube'
     path: '/kube'
