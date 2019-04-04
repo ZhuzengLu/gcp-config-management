@@ -1,3 +1,3 @@
-# GCP Policy Management
+# GCP Config Management
 
-Repository for demo.
+GCP Config Management repository for demo.
