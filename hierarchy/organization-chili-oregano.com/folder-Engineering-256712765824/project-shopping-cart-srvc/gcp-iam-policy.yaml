@@ -1,0 +1,12 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: project-shopping-cart-srvc-iam
+spec:
+  bindings:
+  - members:
+    - user:dev-bob@chili-oregano.com
+    role: roles/owner
+  resourceRef: {}
+status: {}
