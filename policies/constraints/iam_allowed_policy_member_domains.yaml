@@ -10,3 +10,4 @@ spec:
   parameters:
     domains:
       - gserviceaccount.com
+      - chili-oregano.com
