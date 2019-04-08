@@ -1,7 +1,0 @@
-apiVersion: bespin.dev/v1
-kind: Project
-metadata:
-  name: project-fulfillment
-spec:
-  displayName: Fullfillment Srvc
-  id: fulfillment-srvc-0407
