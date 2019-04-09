@@ -1,0 +1,12 @@
+apiVersion: bespin.dev/v1
+kind: IAMPolicy
+metadata:
+  creationTimestamp: null
+  name: project-hr-system-235801-iam
+spec:
+  bindings:
+  - members:
+    - user:admin-alice@chili-oregano.com
+    role: roles/owner
+  resourceRef: {}
+status: {}
