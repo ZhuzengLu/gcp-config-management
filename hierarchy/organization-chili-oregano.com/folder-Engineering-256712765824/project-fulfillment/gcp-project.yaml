@@ -4,4 +4,4 @@ metadata:
   name: project-fulfillment
 spec:
   displayName: Fullfillment Srvc
-  id: shopping-cart-srvc
+  id: fulfillment-srvc-0409-05
