@@ -1,9 +1,0 @@
-apiVersion: bespin.dev/v1
-kind: IAMPolicy
-metadata:
-  name: project-fulfillment-iam
-spec:
-  bindings:
-  - members:
-    - user:dev-bob@gmail.com
-    role: roles/editor
